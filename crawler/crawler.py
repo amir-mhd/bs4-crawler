@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup  
 import requests
-import lxml
 
 # sending request to the target website
 html_source = requests.get("https://romanvm.pythonanywhere.com/").text
