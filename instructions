@@ -1,0 +1,14 @@
+1 making a venv for our project
+-- python -m venv bs4_venv --
+
+2 activating the venv
+-- source bs4_venv/bin/activate --
+
+3 installing beautiful soup 4
+-- pip3 install beautiful soup 4 --
+
+4 installing html parser
+-- pip3 install lxml -- 
+
+5 installing request library 
+-- pip3 install requests -- 
