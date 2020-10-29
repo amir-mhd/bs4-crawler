@@ -1,0 +1,6 @@
+1 -- when running the script it dont recognize the lxml parser
+[  raise FeatureNotFound(
+bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: ]
+
+solution ==> I find out it was because of my html parser, despite I installed lxml before everything 
+but it didn't work! I changed my parser from "lxml" to "html.parser" and it worked fine!

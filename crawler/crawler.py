@@ -3,10 +3,10 @@ import requests
 import csv
 
 # sending request to the target website
-html_source = requests.get("https://romanvm.pythonanywhere.com/").text
+site_requst = requests.get("https://romanvm.pythonanywhere.com/").text
 
 # parse the html from the target website and store it 
-parsed_html = BeautifulSoup(html_source, 'html.parser')
+parsed_html = BeautifulSoup(site_requst, 'html.parser')
 
 # specify a section of the entire html
 posts = parsed_html.find_all("div", class_="card-body")
