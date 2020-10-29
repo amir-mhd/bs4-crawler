@@ -4,11 +4,19 @@
 2 activating the venv
 -- source bs4_venv/bin/activate --
 
-3 installing beautiful soup 4
+3 installing some setup packages
+-- pip install -U setuptools pip --
+
+4 installing beautiful soup 4
 -- pip3 install beautiful soup 4 --
 
-4 installing html parser
+5-00 installing html parser -lxml
 -- pip3 install lxml -- 
 
-5 installing request library 
+
+5-01 installing html parser -html.parser
+-- pip3 install html.parser -- 
+
+6 installing request library 
 -- pip3 install requests -- 
+
