@@ -13,7 +13,6 @@
 5-00 installing html parser -lxml
 -- pip3 install lxml -- 
 
-
 5-01 installing html parser -html.parser
 -- pip3 install html.parser -- 
 
