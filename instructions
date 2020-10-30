@@ -1,21 +1,27 @@
-1 making a venv for our project
+my OS = ubuntu 20.04 LTS
+project was developing in the virtual environment
+
+1 installing vevn in ubuntu 
+-- apt-get install python3-venv
+
+2 making a venv for our project
 -- python -m venv bs4_venv --
 
-2 activating the venv
+3 activating the venv
 -- source bs4_venv/bin/activate --
 
-3 installing some setup packages
+4 installing some setup packages
 -- pip install -U setuptools pip --
 
-4 installing beautiful soup 4
+5 installing beautiful soup 4
 -- pip3 install beautiful soup 4 --
 
-5-00 installing html parser -lxml
+6-00 installing html parser -lxml
 -- pip3 install lxml -- 
 
-5-01 installing html parser -html.parser
+6-01 installing html parser -html.parser
 -- pip3 install html.parser -- 
 
-6 installing request library 
+7 installing request library 
 -- pip3 install requests -- 
 
